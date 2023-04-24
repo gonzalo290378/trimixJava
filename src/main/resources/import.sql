@@ -1,0 +1,30 @@
+INSERT INTO tipo_documento (id, tipo) VALUES (1, 'Dni');
+INSERT INTO tipo_documento (id, tipo) VALUES (2, 'Cedula');
+INSERT INTO tipo_documento (id, tipo) VALUES (3, 'Pasaporte');
+
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Carlos', 'Facade', '26547985', 1, '2017-08-01');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('John', 'Doe', '8754211', 3, '2017-08-02');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Linus', 'Torvalds', '6328654', 3,'2017-08-03');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Jane', 'Doe', '9634567', 2,'2017-08-04');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Rasmus', 'Lerdorf', '1254327', 2,'2017-08-05');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Erich', 'Gamma', '6743287', 1, '2017-08-06');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Richard', 'Helm', '4573256', 1,'2017-08-07');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Ralph', 'Johnson', '1275090', 3,'2017-08-08');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('John', 'Vlissides', '5544376', 3,'2017-08-09');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('James', 'Gosling','3758432', 3,'2017-08-010');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Bruce', 'Lee', '1538753', 2,'2017-08-11');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Johnny', 'Doe', '9045743', 2, '2017-08-12');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('John', 'Roe', '5428643', 1, '2017-08-13');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Jane', 'Roe', '2764535', 3, '2017-08-14');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Richard', 'Doe', '8643253', 1,'2017-08-15');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Janie', 'Doe', '3325546', 1, '2017-08-16');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Phillip', 'Webb', '7643654', 2,'2017-08-17');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Stephane', 'Nicoll', '3764908', 3,'2017-08-18');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Sam', 'Brannen', '4537538', 3, '2017-08-19');  
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Juergen', 'Hoeller', '3764865', 1,'2017-08-20'); 
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Janie', 'Roe', '3567463', 3, '2017-08-21');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('John', 'Smith', '9807607', 1,'2017-08-22');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Joe', 'Bloggs', '7043735', 2,'2017-08-23');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('John', 'Stiles', '8084533', 2, '2017-08-24');
+INSERT INTO personas (nombre, apellido, numero_documento, tipo_id, fecha_nacimiento) VALUES('Richard', 'Roe', '6758090', 2,'2017-08-25');
+
